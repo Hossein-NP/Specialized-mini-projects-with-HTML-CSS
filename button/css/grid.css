@@ -20,7 +20,6 @@ a {
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   height: 100vh;
   background-color: var(--bg-body);
@@ -111,6 +110,7 @@ body {
 
 /* Media Queries  */
 
+/* SM  */
 @media all and (min-width: 576px) {
   .container {
     max-width: 54rem;
@@ -165,6 +165,7 @@ body {
   }
 }
 
+/* MD */
 @media all and (min-width: 768px) {
   .container {
     max-width: 72rem;
@@ -220,6 +221,7 @@ body {
 
 }
 
+/* LG */
 @media all and (min-width: 992px) {
   .container {
     max-width: 96rem;
@@ -277,6 +279,7 @@ body {
   }  
 }
 
+/* XL */
 @media all and (min-width: 1200px) {
   .container {
     max-width: 114rem;
@@ -331,6 +334,7 @@ body {
   }
 }
 
+/* 2XL */
 @media all and (min-width: 1400px) {
   .container {
     max-width: 132rem;

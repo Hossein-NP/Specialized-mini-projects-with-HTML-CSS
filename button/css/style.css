@@ -4,5 +4,37 @@
   --btn3-tf: cubic-bezier(0.23, 1, 0.32, 1);
   --btn4-tf: cubic-bezier(0.45, 0.05, 0.55, 0.95);
   --btn5-tf: cubic-bezier(0.17, 0.84, 0.44, 1);
+  --btns-bg-color: #1b1b1b;
+  --btns-text-color: #fff;
 }
 
+.row {
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Btns Style  */
+.btns {
+  font-family: "Roboto", sans-serif;
+  font-size: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+  background-color: var(--btns-bg-color);
+  color: var(--btns-text-color);
+  border: none;
+  transition: all 640ms var(--btn1-tf);
+ 
+}
+
+.btn_1:hover {
+  color: var(--btns-bg-color);
+  background-color: var(--btns-text-color);
+  box-shadow: 3px 3px 0 var(--btns-bg-color);
+  border: 1px solid var(--btns-bg-color);
+  transition: all 640ms var(--btn1-tf);
+}
