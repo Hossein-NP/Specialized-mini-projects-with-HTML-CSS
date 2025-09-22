@@ -8,16 +8,16 @@
   --btns-text-color: #fff;
 }
 
+
 .row {
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 /* Btns Style  */
 .btns {
   font-family: "Roboto", sans-serif;
-  font-size: ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,8 @@
   color: var(--btns-text-color);
   border: none;
   transition: all 640ms var(--btn1-tf);
- 
+  overflow: hidden;
+  position: relative;
 }
 
 .btn_1:hover {
@@ -38,3 +39,32 @@
   border: 1px solid var(--btns-bg-color);
   transition: all 640ms var(--btn1-tf);
 }
+
+/* Btn 2  */
+
+.btn_2  span {
+  width: 140px;
+  height: 100%;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  text-transform: capitalize;
+  position: absolute;
+  transform: translateX(-140px);
+  color: var(--btns-bg-color);
+  background-color: var(--btns-text-color);
+  border-top: 1px solid var(--btns-bg-color);
+  border-bottom: 1px solid var(--btns-bg-color);
+  transition: all 600ms var(--btn2-tf);
+}
+
+.btn_2 span svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.btn_2:hover span {
+  transform: translateX(0);
+} 
