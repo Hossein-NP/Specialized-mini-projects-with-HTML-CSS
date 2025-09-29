@@ -174,7 +174,7 @@
 
 .btn_4:hover::after,
 .btn_4:hover::before {
-  height: 50%;
+  height: 25px;
 }
 
 .btn_4--overlay::after,
@@ -200,5 +200,40 @@
 
 .btn_4--overlay:hover::after,
 .btn_4--overlay:hover::before {
-  width: 50%;
+  width: 25px;
+}
+
+/* Btn 5  */
+
+.btn_5 {
+  background-color: var(--btns-text-color);
+  border: 1px solid var(--btns-bg-color);
+  color: var(--btns-bg-color);
+  transition: color 400ms var(--btn5-tf) 100ms;
+}
+
+.btn_5:hover {
+  color: var(--btns-text-color);
+}
+
+.btn_5::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: var(--btns-bg-color);
+  border-radius: 100%;
+  left: 54px;
+  bottom: -31px;
+  transition: all 700ms var(--btn5-tf);
+  z-index: 2;
+}
+
+.btn_5:hover::after {
+  transform: scale(12);
+}
+
+.btn_5--overlay {
+  z-index: 10;
 }
