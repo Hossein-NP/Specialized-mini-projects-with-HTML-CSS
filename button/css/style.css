@@ -135,3 +135,70 @@
 .btn_3--overlay:hover::before {
   width: 100%;
 }
+
+/* Btn 4  */
+
+.btn_4::after,
+.btn_4::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: var(--btns-bg-color);
+  width: 1px;
+  height: 0;
+  transition: all 400ms var(--btn4-tf);
+}
+
+.btn_4::after {
+  right: 0;
+  bottom: 0;
+}
+
+.btn_4::before {
+  left: 0;
+  top: 0;
+}
+
+.btn_4 {
+  background-color: #fff;
+}
+
+.btn_4--overlay {
+  color: var(--btns-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+}
+
+.btn_4:hover::after,
+.btn_4:hover::before {
+  height: 50%;
+}
+
+.btn_4--overlay::after,
+.btn_4--overlay::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: var(--btns-bg-color);
+  width: 0;
+  height: 1px;
+  transition: all 400ms var(--btn4-tf);
+}
+
+.btn_4--overlay::after {
+  right: 0;
+  bottom: 0;
+}
+
+.btn_4--overlay::before {
+  left: 0;
+  top: 0;
+}
+
+.btn_4--overlay:hover::after,
+.btn_4--overlay:hover::before {
+  width: 50%;
+}
