@@ -1,0 +1,59 @@
+@import url(./grid.css);
+
+:root {
+  --bg-gray: #F6F6F6;
+  --bg-white: #fff;
+  --color-orange-300: #FF9D00CC;
+  --color-orange-500: #FF6822CC;
+}
+
+.product-wrapper {
+  margin-top: 10rem;
+}
+
+.drink {
+  background-color: var(--bg-gray);
+  width: 280px;
+  height: 432px;
+  border-radius: 500px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.drink_back-img {
+
+}
+
+.drink_back-img--rigth {
+
+}
+
+.drink_main-img {
+
+}
+
+.drink_back-img {
+
+}
+
+.drink_back-img--left {
+
+}
+
+.drink__text {
+
+}
+
+.drink__text--top {
+
+}
+
+.drink__text {
+
+}
+
+.drink__text--bottom {
+
+}
