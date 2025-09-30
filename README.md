@@ -40,7 +40,7 @@ These mini-projects focus on UI components, interactions, and layout practices.
    Collection of creative hover effects for interactive elements.  
    _Tech: HTML, CSS_
 
-9. [**[Buttons](https://github.com/Hossein-NP/Specialized-mini-projects-with-HTML-CSS/tree/main/button)**](#)  
+9. [**[Buttons]**](https://github.com/Hossein-NP/Specialized-mini-projects-with-HTML-CSS/tree/main/button)  
    A set of custom button styles with hover and active states.  
    _Tech: HTML, CSS_
 
