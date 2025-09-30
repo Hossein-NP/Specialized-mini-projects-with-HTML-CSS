@@ -54,5 +54,5 @@ These mini-projects focus on UI components, interactions, and layout practices.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Specialized-mini-projects-with-HTML-CSS.git
+   git clone https://github.com/Hossein-NP/Specialized-mini-projects-with-HTML-CSS.git
 
